@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Env
+.env
+
+# Spark logs
+*.crc
+spark-warehouse/
+
+# Data (IMPORTANT - don't push big/generated files)
+data/raw/
+data/all_prices.csv
+data/analyzed/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
